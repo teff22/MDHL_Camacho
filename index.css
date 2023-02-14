@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+header {
+  min-height: 35vh;
+  margin-top: 50px;
+  background-image: url('/assets/design1_image1.jpg');
+  background-position: 0 -100px;
+  /* object-fit: cover; */
+}
+header img {
+  width: 15%;
+    border-radius: 50%;
+}
+
+
+h1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  font-size: 3rem;
+  text-align: end;
+  margin-left: 2rem;
+}
+
+nav{
+  background-color: rgba(85, 80, 74, 0.39);
+  min-height: 5vh;
+  padding: 0.5rem;
+  
+}
+
+a {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: rgb(221, 108, 55);
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+nav a:hover {
+  background-color: rgb(253, 196, 38);
+}
+
+nav a:active {
+  background-color: rgb(253, 196, 38);
+}
+
+nav a:focus {
+  background-color: rgb(253, 196, 38);
+}
+
+main {
+  background-color: rgba(150, 129, 121, 0.445);
+  min-height: 80vh;
+  padding: 1rem;
+}
+main img{
+  width: 15%;
+  
+}
+section{
+  background-color: rgb(198, 255, 196);
+  display: flex;
+  
+  width: 300px;
+  
+  border-radius: 1rem;
+  box-shadow: 5px 5px  rgb(253, 196, 38);
+  margin: 1rem;
+}
+
+h2 {
+  background-color: rgba(231, 202, 70, 0.808);
+  text-align: center;
+  padding: 8px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
