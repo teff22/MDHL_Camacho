@@ -1,0 +1,141 @@
+:root{
+  font-family: "Comic Sans MS", "Comic Sans",sans-serif;
+  --color1:#b5dad5;
+  --color2:#7b887c;
+  --color3:#c294696c;
+  --color4:#201915;
+  --color5:hsl(2, 89%, 56%);
+  --color6:#0c0b0b;
+  --border-radius:none;
+  --border-template:10px solid;
+}
+* {
+  margin: 15px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(17, 17, 17);
+}
+#tituloprincipal{
+  margin-top: -5px;
+  color: rgb(231, 95, 16) ;
+  text-shadow: 5px 5px yellow;
+  font-size: 3rem;}
+
+header {
+  min-height: 35vh;
+  margin-top: 50px;
+  background-image: url(./assets/design1_image1.jpg);
+  background-position: 0 -100px;
+  /* object-fit: cover; */
+}
+header img {
+  width: 15%;
+    border-radius: 50%;
+    
+}
+
+
+.containeer {
+  display: inline-block;
+  padding: 30px;
+  padding-left: 50px;
+  width: 80%;
+}
+h1 {
+  position: absolute;
+  top: 0;
+  font-style: italic;
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+nav{
+  min-height: 5vh;
+  padding: 0.5rem;
+  display: inline-block;
+  position: fixed;
+  right: 20px;
+  top: 30px;
+  
+}
+
+a {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: rgb(221, 108, 55);
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+nav a:hover {
+  background-color: rgb(253, 196, 38);
+}
+
+nav a:active {
+  background-color: rgb(253, 196, 38);
+}
+
+nav a:focus {
+  background-color: rgb(253, 196, 38);
+}
+
+main {
+  background-color: rgba(150, 129, 121, 0.445);
+  min-height: 80vh;
+  padding: 1rem;
+}
+main img{
+  width: 15%;
+  
+}
+section{
+  
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
+
+}
+
+section div{
+  display: row;
+  width: 8%;
+  height: 100%;
+  vertical-align: top;
+  padding: 0.5rem;
+
+}
+
+h2 {
+  background-color: rgba(231, 202, 70, 0.808);
+  text-align: center;
+  padding: 8px;
+  font-size: 25px;
+  font-weight: bold;
+}
+article{
+  
+  width: 25%;
+  color: var(--color6);
+  background-color: var(--color3);
+  box-shadow: 0 4px 8px 0 var(--color4);
+  border: var(--border-template) var(--color3);
+  border-radius: var(--border-radius);
+}
+.card-contenedor{
+  text-align: center;
+  padding: 10px 20px;
+}
+.card-image{
+  width: 100%;
+  height: 60%;
+  
+}
