@@ -4,42 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/Logo_Mighty_ducks-01.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/" type="image/x-icon">
+    <link rel="stylesheet" href="./stylo/index.css"/>
     <title>Website-Sketch</title>
-    
 </head>
 <body>
   <header>
     <figure>
-        <img src="./assets/Logo_Mighty_ducks-01.png" align="left" alt="Logo_Mighty_ducks-01" id="logo "/>
+     <img src="./assets/Logo_Mighty_ducks-01.png" alt="Logo_Mighty_ducks-01" id="logo"/>
     </figure>
-    <h1>Mighty Ducks Hockey League</h1>  
-  </header>  
+    <h1 id="tituloprincipal"> Mighty Ducks Hockey League </h1>  
+ 
+  </header>   
+<main>
 <nav>
-
-        <a href="#">Home</a> | <a href="./about.html">About MDHL</a> |
-        <a href="./contact.html">Contact</a>
-    </nav>
-    <main>
-        <figure>
-            <img src="./assets/hockey_1.jpg" alt="Jugador de hockey_1" height="80">
-        </figure>
-        <section>
-            <h3>Upcoming Events</h3>
-            <article>
-                <h4>August 4</h4>
-                <p>MDSL Fundraiser</p>
-            </article>
-            <article>
-                <h4>August 16</h4>
-                <p>Season Kick-off: Meet the Teams</p>
-            </article>
-            <article>
-                <h4>September 1</h4>
-                <p>First Game of the Season (Check Game Schedule for details)</p>
-            </article>
-        </section>
-    </main>
+        <a href="#">Home</a>
+        <a href="/pages/about.html">About MDHL</a>
+        <a href="/pages/contact.html">Contact</a>
+        <a href="/pages/game.html">Games</a>
+        <a href="/pages/rules.html">Rules</a>
+        <a href="/pages/registration.html">Registration</a>
+        
 </nav>
+<h2>Upcoming Events</h2>
+  <article>
+      <img class="card-image" src="/assets/hockey_1.jpg" alt="kids playing hockey">
+      <div class="card-containter">
+          <h3>August 4</h3>
+          <p class="idented">MDSL Fundraiser</p>
+      </div>
+  </article>
+  <article>
+      <img class="card-image" src="/assets/hockey_2.jpg" alt="kids playing hockey">
+      <div class="card-containter">
+          <h3>August 16</h3>
+          <p class="idented">Season Kick-off: Meet the Teams</p>
+      </div>
+  </article>
+  <article>
+      <img class="card-image" src="/assets/hockey_3.jpg" alt="kids playing hockey">
+      
+      <div class="card-containter">
+          <h3>September 1</h3>
+          <p class="idented">First Game of the Season (Check Game Information for details)</p>
+      </div>
+  </article>
+</main>
 </body>
 </html>
